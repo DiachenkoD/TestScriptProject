@@ -1,8 +1,9 @@
 # Default ignored files
 */.idea/
 /.idea/
-target/
 */target/
+/target/
 /workspace.xml
+*/workspace.xml
 TestScriptProject.iml
 

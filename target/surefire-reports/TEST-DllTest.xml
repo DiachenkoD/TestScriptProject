@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DllTest" time="0.021" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="DllTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="D:\Java\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\dimae\AppData\Local\Temp\surefire6131903351083653777\surefirebooter2042771632808304693.jar C:\Users\dimae\AppData\Local\Temp\surefire6131903351083653777 2021-11-29T21-41-15_035-jvmRun1 surefire8219253827364743744tmp surefire_04485962435748831261tmp"/>
+    <property name="sun.java.command" value="C:\Users\dimae\AppData\Local\Temp\surefire3058724489983090317\surefirebooter1551589083829152563.jar C:\Users\dimae\AppData\Local\Temp\surefire3058724489983090317 2021-11-29T22-34-42_816-jvmRun1 surefire8659616775093978473tmp surefire_02195662164159853447tmp"/>
     <property name="surefire.test.class.path" value="D:\SpringProjects\TestScriptProject\target\test-classes;D:\SpringProjects\TestScriptProject\target\classes;C:\Users\dimae\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.4.1\junit-jupiter-params-5.4.1.jar;C:\Users\dimae\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\dimae\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.1\junit-jupiter-api-5.4.1.jar;C:\Users\dimae\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\dimae\.m2\repository\org\junit\platform\junit-platform-commons\1.4.1\junit-platform-commons-1.4.1.jar;C:\Users\dimae\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.1\junit-jupiter-engine-5.4.1.jar;C:\Users\dimae\.m2\repository\org\junit\platform\junit-platform-engine\1.4.1\junit-platform-engine-1.4.1.jar;C:\Users\dimae\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.1\junit-platform-launcher-1.4.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dimae"/>
@@ -31,8 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\dimae\AppData\Local\Temp\surefire6131903351083653777\surefirebooter2042771632808304693.jar"/>
-    <property name="idea.version2020.1.4" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\dimae\AppData\Local\Temp\surefire3058724489983090317\surefirebooter1551589083829152563.jar"/>
     <property name="sun.boot.class.path" value="D:\Java\jre\lib\resources.jar;D:\Java\jre\lib\rt.jar;D:\Java\jre\lib\sunrsasign.jar;D:\Java\jre\lib\jsse.jar;D:\Java\jre\lib\jce.jar;D:\Java\jre\lib\charsets.jar;D:\Java\jre\lib\jfr.jar;D:\Java\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,5 +62,5 @@
     <property name="java.class.version" value="52.0"/>
     <property name="buildDirectory" value="/"/>
   </properties>
-  <testcase name="test" classname="DllTest" time="0.016"/>
+  <testcase name="test" classname="DllTest" time="0.01"/>
 </testsuite>
