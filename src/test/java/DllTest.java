@@ -25,9 +25,13 @@ public class DllTest {
 
         double[] kluAnswer = b.clone();
         double[] kluAnsweri = bi.clone();
-
-        klu.factorizeComplex(3, cp, ri, realAndComplexA);
-        klu.solveComplex(kluAnswer, kluAnsweri);
+        try {
+            klu.factorizeComplex(3, cp, ri, realAndComplexA);
+            klu.solveComplex(kluAnswer, kluAnsweri);
+        } catch (Throwable ex) {
+            System.out.println(ex.getMessage());
+            ex.printStackTrace();
+        }
 
     }
 }
