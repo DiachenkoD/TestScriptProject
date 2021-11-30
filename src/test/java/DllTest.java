@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import se.facilia.math.klu.KLU;
@@ -25,13 +26,10 @@ public class DllTest {
 
         double[] kluAnswer = b.clone();
         double[] kluAnsweri = bi.clone();
-        try {
+
+        Assertions.assertDoesNotThrow(() -> {
             klu.factorizeComplex(3, cp, ri, realAndComplexA);
             klu.solveComplex(kluAnswer, kluAnsweri);
-        } catch (Throwable ex) {
-            System.out.println(ex.getMessage());
-            ex.printStackTrace();
-        }
-
+        });
     }
 }
