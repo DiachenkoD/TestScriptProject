@@ -16,7 +16,7 @@ public class KLU {
         dataPointers = new long[3];
     }
 
-    private native void factorizeComplexCCS(int n, int[] Ap, int[] Ai, double[] Ax, long[] dataPointers);
+    private native void s(int n, int[] Ap, int[] Ai, double[] Ax, long[] dataPointers);
 
     private native void solveComplex(double[] b, long[] dataPointers);
 
@@ -27,7 +27,7 @@ public class KLU {
         if (dataPointers[1] != 0) {
             free(dataPointers);
         }
-        factorizeComplexCCS(n, columnPointers, rowIndices, complexValues, dataPointers);
+        s(n, columnPointers, rowIndices, complexValues, dataPointers);
         if (dataPointers[1] == 0) {
             throw new Exception("se.facilia.math.klu.KLU failed to factorize");
         }
