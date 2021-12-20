@@ -17,8 +17,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 8
-      uses: joschi/setup-jdk@v2
-      with:       
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'hotspot'
         java-version: '8.0.251'
     - name: Build with Maven
       run: mvn -X clean install
