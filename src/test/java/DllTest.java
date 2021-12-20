@@ -30,6 +30,6 @@ public class DllTest {
         Assertions.assertDoesNotThrow(() -> {
             klu.factorizeComplex(3, cp, ri, realAndComplexA);
             klu.solveComplex(kluAnswer, kluAnsweri);
-        });
+        }, "Test message");
     }
 }
