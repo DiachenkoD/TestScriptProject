@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '8'
-        distribution: 'liberica'
-        cache: 'maven'
+        architecture: x64
+        jdkFile: https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe
     - name: Build with Maven
       run: mvn -X clean install
