@@ -50,11 +50,14 @@ public class DllTest {
 
         double[] kluAnswer = b.clone();
         double[] kluAnsweri = bi.clone();
-
-        Assertions.assertDoesNotThrow(() -> {
+        try {
             klu.factorizeComplex(3, cp, ri, realAndComplexA);
             klu.solveComplex(kluAnswer, kluAnsweri);
-        }, "Test message");
+        }catch (Throwable e){
+            System.out.println(e.getCause());
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
         System.out.println("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB" +
                 "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB" +
                 "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB" +
